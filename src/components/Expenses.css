@@ -1,0 +1,21 @@
+/* #expenses tr > td.description {
+  width: 175px;
+  text-align: left;
+  padding-left: 0.5rem;
+} */
+
+.actual {
+  padding: 1px 25px;
+}
+
+.currency {
+  margin-right: 7px;
+}
+
+/* .actual tr td {
+  border: 0;
+}
+
+.amount {
+  text-align: end;
+} */

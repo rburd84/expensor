@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  --table-dark-bg: #9d9d9d;
+  --table-light-bg: #dbdbdb;
+  --left-border-fade: 1px solid #333;
+  /* text-align: center; */
+}
+
+.card {
+  padding: 2em;
+}
+
+section {
+  padding: 0.375rem;
+}
+
+/* Table Styles */
+table {
+  text-align: center;
+  border-collapse: collapse;
+  border-radius: 15px;
+}
+
+thead {
+  background: var(--table-dark-bg);
+  color: #333;
+}
+
+thead tr:first-of-type {
+  height: 45px;
+  font-size: 1.6rem;
+  border-bottom: 2px solid #333;
+}
+
+thead tr:last-of-type {
+  height: 35px;
+  font-size: 1.1rem;
+  background: var(--table-light-bg);
+}
+
+tfoot {
+  background: var(--table-dark-bg);
+  color: #333;
+  font-weight: bold;
+  border-left: var(--left-border-fade);
+}
+
+thead th {
+  border-right: 0.5px solid #969696;
+}
+
+thead th:last-of-type {
+  border-right: var(--left-border-fade);
+}
+
+thead tr:last-of-type th {
+  border-top: 1px solid black;
+}
+
+th {
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+td {
+  border: 1px solid #ccc;
+}
+
+tfoot tr > td:first-of-type {
+  padding-right: 0.375rem;
+  text-align: end;
+  border-left: var(--left-border-fade);
+}
+
+tfoot tr:first-of-type {
+  background: var(--table-light-bg);
+}
+
+thead,
+thead tr:first-of-type > th {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-left: 0;
+  border-right: 0;
+}
+
+tfoot,
+tfoot tr:last-of-type > td:first-of-type {
+  border-bottom-left-radius: 6px;
+}
+
+tfoot,
+tfoot tr:last-of-type > td:last-of-type {
+  border-right: 0;
+  border-bottom-right-radius: 6px;
+}
+
+tfoot tr:last-of-type td {
+  border-bottom: 0;
+}
+
+.description {
+  font-size: 0.85rem;
+  padding: 0.3rem;
+  text-transform: uppercase;
+}
+
+.table-heading {
+  padding: 0 25px;
+}
+
+.calender td {
+  height: 50px;
+}
+
+/* EXPENSE TRACKER STYLES */
+
+#tracker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 100px;
+}
+
+.form-section {
+  display: flex;
+  gap: 50px;
+}
+
+/* Single Tracker styles */
+.container {
+  margin: 40px 0px;
+}
+
+.container button + button {
+  margin-left: 15px;
+}

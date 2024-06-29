@@ -1,0 +1,12 @@
+
+How to input budget info 
+  -- clickable input fields
+  -- input tag - toggle with button
+  -- will need state to track value fluctuations
+
+Ability to dynamically create a table with working functionality already in place
+  -- All headings
+  -- Can dynamically create a row and values get updated
+
+Ability to delete a table or edit its information
+Ability to delete an expense(row) or update its information
